@@ -1,0 +1,1 @@
+这是一个springcloud的configserver简单入门案例
