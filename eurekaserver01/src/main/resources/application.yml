@@ -1,0 +1,11 @@
+server:
+  port: 8887
+spring:
+  application:
+    name: eurekaServer
+eureka:
+  client:
+    service-url:
+      defualtZone: http://localhost:8887/eureka/
+    register-with-eureka: false
+    fetch-registry: false
